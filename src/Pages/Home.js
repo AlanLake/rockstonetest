@@ -14,8 +14,6 @@ export default function Home() {
     trackMouse: true,
   });
 
-  console.log(display);
-
   return (
     <div {...handlers}>
       <Logo/>
