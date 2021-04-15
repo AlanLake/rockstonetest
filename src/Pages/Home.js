@@ -17,7 +17,6 @@ export default function Home() {
   return (
     <div {...handlers} className="home">
       <Logo/>
-
       <TextArea />
       <Texts />
       <LocalTime className={display} />

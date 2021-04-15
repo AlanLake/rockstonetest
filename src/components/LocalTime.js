@@ -12,7 +12,7 @@ export default function LocalTime({className}) {
   return (
     <div className={className}>
       <div className="time-wrapper">
-        <p>{time ? time : "loading"}</p>
+        <p className="time">{time ? time : "loading"}</p>
         <Logo filling={"white"} />
       </div>
     </div>
