@@ -15,7 +15,7 @@ export default function Home() {
   });
 
   return (
-    <div {...handlers}>
+    <div {...handlers} className="home">
       <Logo/>
 
       <TextArea />
